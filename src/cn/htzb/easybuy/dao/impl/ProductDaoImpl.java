@@ -32,7 +32,7 @@ public class ProductDaoImpl extends BaseDaoImpl implements ProductDao {
 		return product;
 	}
 
-	//根据分类查询本页显示的商品
+	//根据二级类别查询本页显示的商品
 	public List<Product> getProductsByCategoryLevelTwo(Long id, Pager pager)
 			throws SQLException {
 		List<Product> rtn = new ArrayList<Product>();
@@ -60,7 +60,7 @@ public class ProductDaoImpl extends BaseDaoImpl implements ProductDao {
 		return rtn;
 	}
 
-	//根据分类查询商品
+	//根据商品一级类别查询商品
 	public List<Product> getProductsByCategoryLevelOne(Long id)
 			throws SQLException {
 		List<Product> rtn = new ArrayList<Product>();

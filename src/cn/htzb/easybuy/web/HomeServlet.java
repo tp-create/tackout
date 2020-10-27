@@ -77,7 +77,7 @@ public class HomeServlet extends HttpServlet {
 	private String list(HttpServletRequest request) {
 		prepareCategories(request);
 		prepareNews(request);
-		String page = request.getParameter("page");
+		String page = request.getParameter("start");
 		int pageNo = 1;
 		if (!Validator.isEmpty(page))
 			pageNo = Integer.parseInt(page);
