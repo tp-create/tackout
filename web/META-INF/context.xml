@@ -21,7 +21,7 @@
 	-->
 <Context>
 	<Resource name="jdbc/easybuy" auth="Container" type="javax.sql.DataSource"
-		maxActive="100" maxIdle="30" maxWait="10000" username="root" password="admin"
+		maxActive="100" maxIdle="30" maxWait="10000" username="root" password="123456"
 		driverClassName="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost:3306/easybuy?serverTimezone=Asia/Shanghai&amp;useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false" />
 	<!-- Default set of monitored resources -->
 	<WatchedResource>WEB-INF/web.xml</WatchedResource>

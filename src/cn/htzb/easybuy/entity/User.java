@@ -18,6 +18,7 @@ public class User implements Serializable{
 	private String address;//地址
 	private int status = 1;
 	private boolean login;//ID
+
 	public boolean getLogin() {
 		return login;
 	}

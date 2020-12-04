@@ -180,7 +180,7 @@ public class CartServlet extends HttpServlet {
 			cart = new ShoppingCart();
 			session.setAttribute("cart", cart);
 		}else{//获取本页要显示的内容	
-			ShoppingCart cart2 = new ShoppingCart();//获取购物车的全部商品
+			ShoppingCart cart2 = new ShoppingCart();//获取购物车当前页商品
 			cart2.items=new ArrayList<ShoppingCartItem> ();				
 			Pager pager = new Pager((cart.items.size()+1)/2,1, pageNo);
 			for(int i=(pageNo-1)*2;i<(pageNo)*2&&i<cart.getItems().size();i++){//从购物车中选出本页商品

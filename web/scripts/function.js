@@ -24,7 +24,7 @@ function inArray(array, str){
     }
     return false;
 }
-function goBuy(id, price){
+function goBuy(id){
     var newCookie = "";
     var oldCookie = getCookie("product");
     if(oldCookie) {

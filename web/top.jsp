@@ -6,8 +6,11 @@
 <script type="text/javascript" src="scripts/My97DatePicker/WdatePicker.js"></script> 
 <%-- <c:set value="" var="datas"></c:set>  --%>
 <script type="text/javascript">
-var cart = [<c:forEach items="${sessionScope.cart.items}"  var="item" varStatus="status"><c:if test="${not status.first}">,</c:if>
-['files/${item.product.fileName}','${item.product.price}' ,'${item.product.name}']</c:forEach>];
+var cart = [
+	<c:forEach items="${sessionScope.cart.items}" var="item" varStatus="status">
+		<c:if test="${not status.first}">,</c:if>
+		['files/${item.product.fileName}','${item.product.price}' ,'${item.product.name}']
+	</c:forEach>];
 </script>
 <%-- <c:forEach items="${sessionScope.cart2.items}"  var="item" varStatus="status">
    ['files/${item.product.fileName}' ,${item.product.price} ,${item.product.name}]

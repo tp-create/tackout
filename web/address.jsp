@@ -37,10 +37,11 @@
 <div class="clear"></div>
 <div id="position1" class="wrap"></div>
 <div class="wrap">
-	<div id="shopping"></div>
+	<div id="shoppin"></div>
 </div>
 <div id="footer">
-	Copyright &copy; 2015 汉唐知本 All Rights Reserved. 京ICP证1000001号
+	Copyright &copy; XXX All Rights Reserved. 京ICP证1000001号
+</div>
 </div>
 </body>
 </html>

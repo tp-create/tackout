@@ -159,7 +159,9 @@ public class Validator {
 		return rtn;
 	}
 
-	public static Map<String, String> toSingleParameters(HttpServletRequest req) {
+	public static Map<String, String>
+
+	toSingleParameters(HttpServletRequest req) {
 		Map<String, String> rtn = new HashMap<String, String>();
 		Enumeration parameterNames = req.getParameterNames();
 		for (; parameterNames.hasMoreElements();) {

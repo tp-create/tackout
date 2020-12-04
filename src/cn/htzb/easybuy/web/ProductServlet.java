@@ -80,7 +80,10 @@ public class ProductServlet extends HttpServlet {
 		request.setAttribute("categories", categories);
 		pupulateRequest(request, product);
 		HttpSession session = request.getSession();		
-		//最近浏览		
+		//最近浏览
+		for (Cookie cookie : request.getCookies()) {
+			System.out.println(cookie);
+		}
 		Cookie cookie=(Cookie)session.getAttribute("cookie");//获取cookie
 		String recents="";
 		boolean flag=false;		
@@ -97,11 +100,14 @@ public class ProductServlet extends HttpServlet {
 				flag=true;
 			}
 		}
-        if(!flag){//第一次创建  Cookie      	
-        	cookie=new Cookie("recentViewProducts",request.getParameter("entityId"));
-        	cookie.setMaxAge(60*60*24*7);		
+        if(!flag) {//第一次创建  Cookie
+			cookie = new Cookie("recentViewProducts", request.getParameter("entityId"));
+			cookie.setMaxAge(60 * 60 * 24 * 7);
 			session.setAttribute("cookie", cookie);
 		}
+
+//        response.addCookie(cookie);
+
         ProductService productService=new ProductServiceImpl();
         List<Product> recentsProduct =new ArrayList<Product> ();
 		if(null!=cookie.getName() && cookie.getName().equals("recentViewProducts")){			

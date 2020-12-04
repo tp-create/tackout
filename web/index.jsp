@@ -87,7 +87,7 @@
 					<c:forEach items="${allNews}" var="news">					    
 					   <c:if test="${news.title.length()>16}">
 					    <li><a href="News?action=view&entityId=${news.id}" target="_self"
-							   ${news.title.substring(0, 16)}...</a></li>
+							   ${news.title.substring(0, 16)}.../></li>
 					    </c:if>
 					    <c:if test="${news.title.length()<=16}">
 						<li><a href="News?action=view&entityId=${news.id}" target="_self">${news.title}</a></li>
