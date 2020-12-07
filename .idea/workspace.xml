@@ -6,21 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134181a2-7ee1-4e98-a000-76bf86b0e574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/EasyBuy_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/EasyBuy_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/htzb/easybuy/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/htzb/easybuy/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/htzb/easybuy/util/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/htzb/easybuy/util/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/htzb/easybuy/web/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/htzb/easybuy/web/CartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/htzb/easybuy/web/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/htzb/easybuy/web/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/address.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/address.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/scripts/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/scripts/function.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/top.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="134181a2-7ee1-4e98-a000-76bf86b0e574" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,6 +213,7 @@
       <workItem from="1606353231985" duration="5815000" />
       <workItem from="1606529083662" duration="1498000" />
       <workItem from="1606956484012" duration="9000" />
+      <workItem from="1607320425609" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="20201027 commit">
       <created>1603788663989</created>
