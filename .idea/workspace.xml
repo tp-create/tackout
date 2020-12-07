@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134181a2-7ee1-4e98-a000-76bf86b0e574" name="Default Changelist" comment="">
+    <list default="true" id="134181a2-7ee1-4e98-a000-76bf86b0e574" name="Default Changelist" comment="上传成功">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +215,7 @@
       <workItem from="1606353231985" duration="5815000" />
       <workItem from="1606529083662" duration="1498000" />
       <workItem from="1606956484012" duration="9000" />
-      <workItem from="1607320425609" duration="1891000" />
+      <workItem from="1607320425609" duration="2713000" />
     </task>
     <task id="LOCAL-00001" summary="20201027 commit">
       <created>1603788663989</created>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607326199507</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="上传成功">
+      <created>1607327467479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607327467479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +247,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20201027 commit" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="上传成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传成功" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Project_Structure" timestamp="1604976196912">
@@ -261,10 +269,10 @@
     </state>
     <state x="526" y="299" width="548" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1602420154735" />
     <state x="631" y="362" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1605751409352" />
-    <state x="296" y="0" key="CommitChangelistDialog2" timestamp="1607327450927">
+    <state x="296" y="0" key="CommitChangelistDialog2" timestamp="1607327702085">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="296" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607327450927" />
+    <state x="296" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607327702085" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1603788658165" />
     <state width="476" height="582" key="DebuggerActiveHint" timestamp="1604235276388">
       <screen x="0" y="0" width="1600" height="860" />
@@ -369,10 +377,10 @@
     <state x="146" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607326259630" />
     <state x="152" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602375356683" />
     <state x="182" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606178933148" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1607326606520">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1607327499413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607326606520" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607327499413" />
     <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1606178629272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
